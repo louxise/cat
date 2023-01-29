@@ -1,0 +1,39 @@
+
+body {
+  background-color: #F6D1D9;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cat {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.catFactContainer {
+  background-color: white;
+  max-width: 230px;
+  width: 230px;
+  height: 200px;
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px; 
+}
+
+.catBtn {
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+}
